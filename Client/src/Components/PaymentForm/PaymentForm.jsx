@@ -10,7 +10,7 @@ const PaymentForm = ({ userData }) => {
   const [exp, setExp] = useState("");
   const [cvv, setCVV] = useState("");
 
-  var backendUrl = "https://lotusrhythms.onrender.com/";
+  var backendUrl = "https://lotus-rhythms.onrender.com";
 
   const handleSubmit = (e) => {
     e.preventDefault();
