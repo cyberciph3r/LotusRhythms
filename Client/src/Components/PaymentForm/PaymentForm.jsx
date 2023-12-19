@@ -114,7 +114,7 @@ const PaymentForm = ({ userData }) => {
                 maxLength: 3,
                 title: "Hold on! Your CVV should be a 3-digit code.",
               }}
-              placeholder="123"
+              placeholder="***"
               onChange={(e) => {
                 setCVV(e.target.value);
               }}

@@ -40,7 +40,7 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     alignItems: "center",
     background:
-      "linear-gradient( rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ), url('Images/2.jpg')",
+      "linear-gradient( rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ), url('Images/21.jpg')",
     backgroundPositionY: "-10rem",
     backgroundSize: "cover",
     padding: "4rem",
@@ -53,7 +53,8 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.down("xs")]: {
       height: "100vh",
       background:
-        "linear-gradient( rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ), url('Images/5.jpg')",
+        "linear-gradient( rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ), url('Images/51.jpg')",
+      backgroundPositionX: "-5rem",
       backgroundSize: "cover",
       padding: "1.2rem",
     },
@@ -196,7 +197,7 @@ const useStyles = makeStyles((theme) => ({
   },
   labelGender: {
     [theme.breakpoints.down("xs")]: {
-      fontSize: "0.7rem",
+      fontSize: "0.6rem",
     },
   },
   footer: {
