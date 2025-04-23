@@ -11,9 +11,8 @@ The frontend of LotusRhythms is developed using React, with Material-UI (MUI) fo
 ## Backend
 The backend of LotusRhythms is powered by Node.js and Express. The server handles API calls, facilitating smooth communication between the frontend and the MongoDB database.
 
-### Payment Success:
 Assumed that the payment process is always successful.
-Omitted the implementation for payment processing, as specified in the instructions.
+Omitted the implementation for payment processing.
 
 ## Approach
 1. User Data Handling:
